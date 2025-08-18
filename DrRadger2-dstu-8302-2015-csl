@@ -114,10 +114,9 @@
 
   <!-- ДОДАЙ НОВИЙ МАКРОС ОКРЕМО ПІСЛЯ number-of-pages -->
   <macro name="author-sort">
-    <names variable="author">
+    <names variable="author reviewed-author editor">
       <name name-as-sort-order="all" sort-separator=" " delimiter=" "/>
       <substitute>
-        <names variable="editor"/>
         <text variable="title"/>
       </substitute>
     </names>
@@ -135,12 +134,10 @@
   </citation>
   <bibliography hanging-indent="true" second-field-align="margin">
     <sort>
-      <!-- 1) Спочатку записи з мовами uk/ru/... перед en: за рахунок спадного сортування по language -->
       <key variable="language" sort="descending"/>
-      <!-- 2) Далі — алфавітно за автором (прізвище, ініціали) -->
       <key macro="author-sort"/>
-      <!-- 3) Якщо авторів немає або однакові — за назвою -->
       <key variable="title"/>
+      <key variable="issued"/>
     </sort>
     <layout suffix=".">
       <text variable="citation-number" suffix=". "/>
