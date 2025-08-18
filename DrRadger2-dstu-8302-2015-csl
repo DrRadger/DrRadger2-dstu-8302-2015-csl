@@ -108,10 +108,6 @@
     <text variable="page"/>
   </macro>
   <macro name="number-of-pages">
-    <text variable="number-of-pages"/>
-    <label variable="number-of-pages"/>
-  </macro>
-
   <!-- ДОДАЙ НОВИЙ МАКРОС ОКРЕМО ПІСЛЯ number-of-pages -->
   <macro name="author-sort">
     <names variable="author reviewed-author editor">
