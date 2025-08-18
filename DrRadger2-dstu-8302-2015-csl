@@ -108,7 +108,9 @@
     <text variable="page"/>
   </macro>
   <macro name="number-of-pages">
-  <!-- ДОДАЙ НОВИЙ МАКРОС ОКРЕМО ПІСЛЯ number-of-pages -->
+    <text variable="number-of-pages"/>
+    <label variable="number-of-pages"/>
+  </macro>
   <macro name="author-sort">
     <names variable="author reviewed-author editor">
       <name name-as-sort-order="all" sort-separator=" " delimiter=" "/>
@@ -116,9 +118,6 @@
         <text variable="title"/>
       </substitute>
     </names>
-  </macro>
-    <text variable="number-of-pages"/>
-    <label variable="number-of-pages"/>
   </macro>
   <citation collapse="citation-number">
     <sort>
