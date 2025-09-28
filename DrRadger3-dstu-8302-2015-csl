@@ -18,15 +18,11 @@
   </info>
   <locale>
     <terms>
-      <term name="editor">ред. </term>
-      <term name="et-al"> та ін.</term>
-      <term name="page" form="short">
-        <single>С. </single>
-        <multiple>С. </multiple>
-      </term>
-      <term name="number-of-pages">
-        <single> с.</single>
-        <multiple> с.</multiple>
+      <term name="volume" form="short">Vol. </term>
+<term name="page" form="short">
+  <single>p. </single>
+  <multiple>pp. </multiple>
+</term>
       </term>
       <term name="volume" form="short">Вип. </term>
       <term name="issue" form="short">№ </term>
@@ -34,15 +30,6 @@
         <single>Ред. </single>
         <multiple>Ред. </multiple>
       </term>
-      <term name="translator" form="short">
-        <single>Пер. </single>
-        <multiple>Пер. </multiple>
-      </term>
-      <term name="editortranslator" form="short">
-        <single>Ред. і пер.</single>
-        <multiple>Ред. і пер. </multiple>
-      </term>
-    </terms>
   </locale>
 <locale xml:lang="en">
   <terms>
