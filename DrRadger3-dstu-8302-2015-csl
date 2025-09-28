@@ -46,7 +46,6 @@
   </locale>
 <locale xml:lang="en">
   <terms>
-    <!-- Тільки те, що просили: volume і page -->
     <term name="volume" form="short">Vol. </term>
     <term name="page" form="short">
       <single>p. </single>
